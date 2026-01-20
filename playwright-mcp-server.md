@@ -1,9 +1,11 @@
 
 # Playwright MCP Server
 
-**Link:** https://github.com/microsoft/playwright-mcp
+**[Microsoft Playwright MCP Server Repo](https://github.com/microsoft/playwright-mcp)**
 
-**Setup guide:** *WIP*
+**[Setup Guide](playwright-mcp-setup-guide.md)**
+
+**[Prompt Examples](playwright-mcp-promt-examples)**
 
 ---
 
