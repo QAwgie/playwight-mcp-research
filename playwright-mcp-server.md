@@ -3,7 +3,7 @@
 
 **[Microsoft Playwright MCP Server Repo](https://github.com/microsoft/playwright-mcp)**
 
-**[Setup Guide](playwright-mcp-setup-guide.md)**
+**[Setup Guide](https://github.com/QAwgie/playwight-mcp-research/edit/main/README.md#3-playwright-mcp-server-installed)**
 
 **[Prompt Examples](playwright-mcp-promt-examples)**
 
