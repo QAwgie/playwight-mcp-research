@@ -5,8 +5,43 @@
 
 **Setup guide:** *WIP*
 
-## Use cases:
+---
 
+## Summary: ##
+
+**Model Context Protocol (MCP) solves the common problem in AI tool use: how to let an AI use external tools in a consistent and practical way.**
+It defines a standard way for an AI client (like Claude, VS Code Copilot, etc.) to talk to tool servers. Each server offers specific actions with clear inputs and outputs (usually JSON), so the client can call tools in a predictable format. With Playwright MCP, the server provides browser automation through that same structured interface.
+
+--
+
+**An MCP server is a program/process that:**
+
+- implements the Model Context Protocol
+
+- exposes one or more tools (actions) the client can call
+
+- accepts requests over a transport (commonly stdio or HTTP/WebSocket)
+
+- returns structured results (typically JSON)
+
+--
+
+**How it fits together:**
+
+AI client (Claude, VS Code extension, etc.)
+
+↕ (MCP messages)
+
+MCP server / tool server (a separate process)
+
+→ runs the actual capability (e.g., Playwright automation)
+
+→ returns results back to the client
+
+
+
+---
+## Use cases:
 
 ### 1. Web Scraping at Scale
 
