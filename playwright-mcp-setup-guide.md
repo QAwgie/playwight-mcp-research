@@ -30,24 +30,27 @@ npm -v
 
 ---
 
+### 4. Playwright setup:
+
+Running Playwright MCP tests does not specifically require Playwright setup, only the server, but running tests on browsers does require browser binaries, so adding them using: 
+``` npx playwright install ``` or installing Playwright is necessary.
+For any additional hands-on testing, Playwright setup is also a must, so **setting it up is recommended**.
+
+- You can follow the **Visual Studio Code Playwright installation guide** [here](https://playwright.dev/docs/getting-started-vscode);
+  
+  or
+  
+- **IntelliJ Playwright installation guide** [here](https://www.jetbrains.com/help/idea/playwright.html).
+
+---
+
 ### 3. Playwright MCP server install:
 
 ### <ins>*For VS Code:*</ins>
-- Go to [Microsoft Playwright MCP Repository](https://github.com/microsoft/playwright-mcp)
+- In VS Code Exensions tab search for "**@mcp playwright**" and install the Playwright MCP server extension OR type ``` npm install @modelcontextprotocol/server-playwright ``` in the terminal
 
-- Click the **Install Server: VS Code** button
-
-
-<img width="1165" height="387" alt="image" src="https://github.com/user-attachments/assets/eb6ed0ad-786c-4f19-9e63-30b1255c622b" />
-
-- Click **Open Visual Studio code** 
-
-<img width="1232" height="738" alt="image" src="https://github.com/user-attachments/assets/46354c52-d5d3-49b4-9d09-6bba81134a73" />
-
-- In VS Code, click **Install** 
-
-<img width="693" height="460" alt="image" src="https://github.com/user-attachments/assets/695ab129-2f2f-471f-80fa-95563de8001e" />
-
+<img width="1454" height="804" alt="image" src="https://github.com/user-attachments/assets/39f252b6-8a4b-4355-9e63-b33a84382e61" />
+  
 - Start the server (if not already started)  
 
 <img width="497" height="546" alt="image" src="https://github.com/user-attachments/assets/1847c930-e439-4dd5-8abe-cbe8bfcf0a1c" />
@@ -81,27 +84,3 @@ npm -v
 2. Install the *microsoft/playwright-mcp* from the MCP Registry
  
 <img width="707" height="960" alt="image" src="https://github.com/user-attachments/assets/45b55922-575d-4ac2-b018-9916cb5c16d8" />
-
-
-
-
-
-
-
-
-
-
-  
----
-
-### 4. Playwright setup:
-
-Running Playwright MCP tests does not specifically require Playwright setup, only the server, but running tests on browsers does require browser binaries, so adding them using: 
-``` npx playwright install ``` or installing Playwright is necessary.
-For any additional hands-on testing, Playwright setup is also a must, so **setting it up is recommended**.
-
-- You can follow the **Visual Studio Code Playwright installation guide** [here](https://playwright.dev/docs/getting-started-vscode);
-  
-  or
-  
-- **IntelliJ Playwright installation guide** [here](https://www.jetbrains.com/help/idea/playwright.html).
