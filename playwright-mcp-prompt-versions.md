@@ -1,5 +1,6 @@
+#Intro
 
-- Intro
+```
 ---
 mode: agent
 description: "Manually test a site and create a report"
@@ -27,6 +28,7 @@ Take screenshots or snapshots of the page if necessary to illustrate issues or c
 
 Close the browser after completing the manual test.
 
+```
 
-- Beginner
-- Advanced
+#Beginner
+#Advanced
