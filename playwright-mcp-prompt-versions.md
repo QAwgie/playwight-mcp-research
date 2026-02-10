@@ -1,5 +1,6 @@
-#Intro
+# Intro
 
+- After "**Tools:**", you can also add "**Model: 'example'**" where <ins>example</ins> is the name of the LLM you want used.
 ```
 ---
 mode: agent
@@ -30,5 +31,5 @@ Close the browser after completing the manual test.
 
 ```
 
-#Beginner
-#Advanced
+# Beginner
+# Advanced
