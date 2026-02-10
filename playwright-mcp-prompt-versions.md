@@ -1,6 +1,6 @@
 # Intro
 
-- After "**Tools:**", you can also add "**Model: 'example'**" where <ins>example</ins> is the name of the LLM you want used.
+- After "**tools:**", you can also add "**model: 'example'**" where <ins>example</ins> is the name of the LLM you want used.
 ```
 ---
 mode: agent
